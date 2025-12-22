@@ -39,7 +39,7 @@ export const Bio = {
   description:
     "I bring a strong blend of discipline, curiosity, and drive to every challenge I take on. Currently pursuing my M.Tech in Computer Science and Engineering at IIIT Delhi, I am ready to make a meaningful impact in the tech world.",
   github: "https://github.com/saloninarang27",
-  resume: "https://drive.google.com/file/d/1hlq1FyWq1cdb8QH7qdlswGjoe8Rw0vje/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1VCuywhvVIENhAyvyQpD7H-CtfaMkXo1B/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/saloni-narang-a77b50217/",
   // twitter: "#",
   insta: "https://www.instagram.com/saloninarang2710/",
