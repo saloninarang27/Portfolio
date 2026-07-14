@@ -108,6 +108,14 @@ const Date = styled.div`
     }
 `
 
+const SubCategory = styled.div`
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 2px;
+    color: ${({ theme }) => theme.text_secondary};
+    text-transform: capitalize;
+`
+
 
 const Description = styled.div`
     font-weight: 400;
@@ -147,6 +155,7 @@ const ProjectCards = ({project,setOpenModal}) => {
             </Tags>
             <Details>
                 <Title>{project.title}</Title>
+                {project.subCategory && <SubCategory>{project.subCategory}</SubCategory>}
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
@@ -155,7 +164,11 @@ const ProjectCards = ({project,setOpenModal}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
+            {project.category === 'mtech' && project.github && project.github !== 'null' && (
+                <a href={project.github} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} style={{textDecoration: 'none', width: '100%'}}>
+                    <Button>View Code</Button>
+                </a>
+            )}
         </Card>
     )
 }

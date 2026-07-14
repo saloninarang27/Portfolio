@@ -1,3 +1,9 @@
+import mtech1 from "../images/mtech_1_1784011629051.png";
+import mtech2 from "../images/mtech_2_1784011642652.png";
+import mtech4 from "../images/mtech_4_1784011654769.png";
+import mtech5 from "../images/mtech_5_1784011668749.png";
+import mtech6 from "../images/mtech_6_1784011695052.png";
+import mtech7 from "../images/mtech_7_1784011707530.png";
 import ss from "../images/Screenshot 2024-05-09 030254.png"
 import sss from "../images/Screenshot 2024-05-09 031239.png"
 import news from "../images/news.png"
@@ -337,7 +343,8 @@ export const projects = [
   {
     id: 1,
     title: "Visitor Management System",
-    category: "web app",
+    category: "internship",
+    subCategory: "web app",
     description: "Welcome to the Visitor Management System (VMS)! Our system is designed to simplify and enhance the visitor registration and management process for offices, buildings, or events. Features role-based access control and user-friendly interface.",
     image: vms,
     tags: ["Full Stack", "React", "Firebase", "Node.js"],
@@ -347,7 +354,8 @@ export const projects = [
   {
     id: 2,
     title: "Placement Prediction",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "A machine learning-based model that predicts students’ placement likelihood based on academic features. Deployed via a Tkinter GUI for easy interaction.",
     image: cp,
     tags: ["Python", "Tkinter", "ML algorithms"],
@@ -357,7 +365,8 @@ export const projects = [
   {
     id: 3,
     title: "TrackStar",
-    category: "android app",
+    category: "internship",
+    subCategory: "android app",
     description: "Flutter-based Android application for ITC Haridwar, optimizing worker workflows. Features real-time chat and product location finder.",
     image: trackstar,
     tags: ["Flutter", "SQLite", "Android Studio"],
@@ -367,7 +376,8 @@ export const projects = [
   {
     id: 4,
     title: "Ticket Management System",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Web-based Ticket Management System built with React and Firebase. Includes role-based auth, ticket management, and dashboard via NextUI.",
     image: ticket,
     tags: ["React", "Firebase", "NextUI", "Role-based Auth"],
@@ -377,7 +387,8 @@ export const projects = [
   {
     id: 5,
     title: "Loan Approval Prediction",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "Machine learning project that predicts loan approvals based on historical data using multiple ML algorithms.",
     image: loan,
     tags: ["Python", "Pandas", "Scikit-Learn", "Streamlit/Flask"],
@@ -387,7 +398,8 @@ export const projects = [
   {
     id: 6,
     title: "BookBuddy",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Full-stack Library Management System with real-time seat allocation and online book management.",
     image: bb,
     tags: ["Spring Boot", "React Js", "MySQL", "Authentication"],
@@ -397,7 +409,8 @@ export const projects = [
   {
     id: 7,
     title: "Music Popularity Prediction",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "Predicts song popularity using ML algorithms, including Random Forest Regression for best accuracy.",
     image: music,
     tags: ["Python", "Random Forest Regression"],
@@ -407,7 +420,8 @@ export const projects = [
   {
     id: 8,
     title: "ShopScape",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Responsive e-commerce website frontend built with React.js and Tailwind CSS, featuring interactive cart and checkout.",
     image: shopscape,
     tags: ["React Js", "Tailwind CSS", "HTML", "CSS"],
@@ -417,7 +431,8 @@ export const projects = [
   {
     id: 9,
     title: "IPL Dashboard Application",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Provides detailed insights and stats for IPL matches (2008-2023) using Spring Boot and React.",
     image: sss,
     tags: ["Spring Boot", "React Js", "MySQL", "Render", "HTML", "CSS"],
@@ -427,7 +442,8 @@ export const projects = [
   {
     id: 10,
     title: "Earthquake Prediction",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "Predicts earthquakes by analyzing seismic data with ML algorithms to identify risk zones.",
     image: earth,
     tags: ["Python", "ML algorithms", "Jupyter Notebook"],
@@ -437,7 +453,8 @@ export const projects = [
   {
     id: 11,
     title: "PlaceZen",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Web app to support students in internships & job placements. Features resume creation, application tracking, and career guidance.",
     image: ss,
     tags: ["Spring Boot", "React Js", "AWS Cloud", "MySQL", "APIs"],
@@ -447,7 +464,8 @@ export const projects = [
   {
     id: 12,
     title: "Amazon Clone",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Responsive Amazon clone using HTML, JS, and Tailwind CSS with dynamic product search and listings.",
     image: amazon,
     tags: ["HTML", "JavaScript", "Tailwind CSS", "Responsive"],
@@ -457,7 +475,8 @@ export const projects = [
   {
     id: 13,
     title: "Cancer Prediction",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "Predicts cancer using ML algorithms with data preprocessing, model training, and evaluation metrics like accuracy and F1-score.",
     image: cancer,
     tags: ["Python", "Logistic Regression", "Random Forest", "SVM", "KNN"],
@@ -467,7 +486,8 @@ export const projects = [
   {
     id: 14,
     title: "Random Quote Generator",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Generates inspirational and humorous quotes using React, with options to save favorites and share.",
     image: quote,
     tags: ["React Js", "API", "JavaScript", "HTML", "Responsive"],
@@ -477,7 +497,8 @@ export const projects = [
   {
     id: 15,
     title: "To-Do App",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Task management app to organize, track, and complete daily tasks efficiently with a simple interface.",
     image: todo,
     tags: ["React Js", "HTML", "CSS", "Responsive"],
@@ -487,7 +508,8 @@ export const projects = [
   {
     id: 16,
     title: "Quiz Website",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Quiz website with multiple categories, interactive UI, scoring system, and responsive design.",
     image: quiz,
     tags: ["React Js", "HTML", "CSS", "Responsive"],
@@ -497,7 +519,8 @@ export const projects = [
   {
     id: 17,
     title: "Excel Automation",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Automates data validation and verification in Excel sheets using Python for ensuring data integrity and accuracy.",
     image: excel,
     tags: ["Python 3.x", "pandas", "openpyxl", "xlrd", "Regex"],
@@ -507,7 +530,8 @@ export const projects = [
   {
     id: 18,
     title: "News App",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Fetches and displays latest headlines from NewsAPI, showcasing popular news articles in a clean interface.",
     image: news,
     tags: ["React Js", "API", "Responsive", "HTML", "CSS"],
@@ -517,7 +541,8 @@ export const projects = [
   {
     id: 19,
     title: "Fetch API using Redux",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Redux Product Listing App fetches and displays products using Redux Toolkit for state management.",
     image: redux,
     tags: ["React", "Redux", "JavaScript"],
@@ -527,7 +552,8 @@ export const projects = [
   {
     id: 20,
     title: "Search Query Anomaly Detection",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "Detects anomalies in search queries based on performance metrics, helping businesses spot potential issues or opportunities.",
     image: search,
     tags: ["Python", "Correlation Analysis"],
@@ -537,7 +563,8 @@ export const projects = [
   {
     id: 21,
     title: "Fetching & Analyzing Top 50 Crypto Data",
-    category: "machine learning",
+    category: "btech",
+    subCategory: "machine learning",
     description: "Fetches real-time data of top 50 cryptocurrencies using API and performs analysis, generating live-updating Excel sheets.",
     image: fetch,
     tags: ["Python", "Excel", "ML", "API"],
@@ -547,12 +574,146 @@ export const projects = [
   {
     id: 22,
     title: "Inventory Management",
-    category: "web app",
+    category: "btech",
+    subCategory: "web app",
     description: "Web-based Inventory Management System with role-based auth, real-time tracking, product management, and dashboard.",
     image: inventory,
     tags: ["React", "Firebase", "Dashboard", "HTML", "CSS", "JS"],
     github: "https://github.com/saloninarang27/Inventory_Management",
     webapp: "https://inventory-management-seven-sigma.vercel.app/"
+  }
+,
+  {
+    id: "mtech-1",
+    title: "CPU & Memory-Aware Load Balancing for Distributed LLM Inference",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Developed CPU & Memory-Aware Load Balancing for Distributed LLM Inference.",
+    image: mtech1,
+    tags: ['Python', 'Machine Learning', 'AI'],
+    github: null,
+    webapp: null
+  },
+  {
+    id: "mtech-2",
+    title: "Faculty AI: Institutional RAG System for IIIT-Delhi Faculty Data",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Developed Faculty AI: Institutional RAG System for IIIT-Delhi Faculty Data.",
+    image: mtech2,
+    tags: ['Python', 'Machine Learning', 'AI'],
+    github: null,
+    webapp: null
+  },
+  {
+    id: "mtech-4",
+    title: "Learning Reduced-Round Cipher Behaviour using Machine Learning",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Developed Learning Reduced-Round Cipher Behaviour using Machine Learning.",
+    image: mtech4,
+    tags: ['Python', 'Machine Learning', 'AI'],
+    github: null,
+    webapp: null
+  },
+  {
+    id: "mtech-5",
+    title: "Analysis of Network I O Primitives using perf tool",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "This project implements and evaluates a TCP-based client-server application to experimentally study the cost of data movement in network I/O. It compares standard two-copy, one-copy optimized, and zero-copy socket communication.",
+    image: mtech5,
+    tags: ['C/C++', 'Systems', 'Networking'],
+    github: "https://github.com/saloninarang27/Analysis-of-Network-I-O-Primitives-using-perf-tool",
+    webapp: null
+  },
+  {
+    id: "mtech-6",
+    title: "Process and thread Benchmarking Project",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "This project implements a comprehensive benchmark suite to analyze and compare the performance characteristics of process-based and thread-based concurrency models in Linux.",
+    image: mtech6,
+    tags: ['C/C++', 'Systems', 'Networking'],
+    github: "https://github.com/saloninarang27/Process-and-thread-Benchmarking-Project",
+    webapp: null
+  },
+  {
+    id: "mtech-7",
+    title: "CELLULAR NETWORK SIMULATOR",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "This project implements a cellular network simulator that models 2G, 3G, 4G, and 5G communication technologies.",
+    image: mtech7,
+    tags: ['C/C++', 'Systems', 'Networking'],
+    github: "https://github.com/saloninarang27/CELLULAR-NETWORK-SIMULATOR",
+    webapp: null
+  },
+  {
+    id: "mtech-8",
+    title: "Diverse Student Data Handling",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "This C++ project is a student management system designed to handle diverse student data formats through templates, process data from a CSV file, and perform efficient, parallel operations on the data.",
+    image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&auto=format&fit=crop",
+    tags: ['C++'],
+    github: "https://github.com/saloninarang27/Diverse-Student-Data-Handling",
+    webapp: null
+  },
+  {
+    id: "mtech-9",
+    title: "Student Management System",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "A student management system with features including: add new student records, display and sort records by name, load and save from CSV files, and custom implementations of core data structures.",
+    image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&auto=format&fit=crop",
+    tags: ['C++'],
+    github: "https://github.com/saloninarang27/Student-Management-System",
+    webapp: null
+  },
+  {
+    id: "mtech-10",
+    title: "RobustML End to End Machine Learning Pipeline",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "A robust end-to-end ML pipeline training Decision Tree, Gradient Boosting, and SVM models with full preprocessing, evaluation and model comparison.",
+    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&auto=format&fit=crop",
+    tags: ['Python', 'Machine Learning', 'AI'],
+    github: "https://github.com/saloninarang27/RobustML-End-to-End-Machine-Learning-Pipeline",
+    webapp: null
+  },
+  {
+    id: "mtech-11",
+    title: "Multi Modal Classification Pipeline",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Implemented dataset classes for image, audio, and text modalities with proper preprocessing, random and weighted samplers, and trained classifiers for multi-modal data.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+    tags: ['Jupyter Notebook'],
+    github: "https://github.com/saloninarang27/Multi-Modal-Classification-Pipeline",
+    webapp: null
+  },
+  {
+    id: "mtech-12",
+    title: "BibTeX Parser",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "A C++ OOP-based BibTeX parser with dynamic strings, extra fields (PDF, source, presentation URLs), sorting by year and alphabetically, and merging multiple bib files using the + operator.",
+    image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop",
+    tags: ['C++', 'TeX'],
+    github: "https://github.com/saloninarang27/BibTeX-Parser",
+    webapp: null
+  },
+  {
+    id: "mtech-14",
+    title: "Multimodal Emotion Recognition",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "A comprehensive ML pipeline for multimodal emotion recognition using the Crema-D dataset, covering data processing, model development, and evaluation with advanced ML techniques.",
+    image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=600&auto=format&fit=crop",
+    tags: ['Jupyter Notebook', 'Deep Learning'],
+    github: "https://github.com/saloninarang27/Multimodal-Emotion-Recognition",
+    webapp: null
   }
 ];
 

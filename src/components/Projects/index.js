@@ -14,19 +14,26 @@ import { projects } from '../../data/constants';
 
 const categories = [
   { key: 'all', label: 'All' },
-  { key: 'web app', label: "WEB APP'S" },
-  { key: 'android app', label: "ANDROID APP'S" },
-  { key: 'machine learning', label: 'MACHINE LEARNING' },
+  { key: 'btech', label: 'BTech' },
+  { key: 'mtech', label: 'MTech' },
+  { key: 'internship', label: 'Internship' },
 ];
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState('all');
 
+  const categoryOrder = { mtech: 1, internship: 2, btech: 3 };
+  const sortedProjects = [...projects].sort((a, b) => {
+      const orderA = categoryOrder[a.category] || 99;
+      const orderB = categoryOrder[b.category] || 99;
+      return orderA - orderB;
+  });
+
   // Filter projects based on toggle
   const filteredProjects =
     toggle === 'all'
-      ? projects
-      : projects.filter((project) => project.category === toggle);
+      ? sortedProjects
+      : sortedProjects.filter((project) => project.category === toggle);
 
   return (
     <Container id="projects">
