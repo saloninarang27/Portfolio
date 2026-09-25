@@ -33,6 +33,14 @@ import cancer from "../images/cancer.png"
 import earth from "../images/earth.png"
 import search from "../images/search.png"
 import fetch from "../images/fetch.png"
+import diverseStudentDataImg from "../images/diverse_student_data.jpg";
+import studentManagementSysImg from "../images/student_management_sys.jpg";
+import multimodalPipelineImg from "../images/multimodal_pipeline.jpg";
+import emotionRecognitionImg from "../images/emotion_recognition.jpg";
+import bibtexParserImg from "../images/bibtex_parser.jpg";
+import sparkRankingImg from "../images/spark_ranking.jpg";
+import solariDemandImg from "../images/solari_demand.jpg";
+import bigdataBenchmarkingImg from "../images/bigdata_benchmarking.jpg";
 export const Bio = {
   name: "Saloni",
   roles: [
@@ -655,7 +663,7 @@ export const projects = [
     category: "mtech",
     subCategory: "MTech Project",
     description: "This C++ project is a student management system designed to handle diverse student data formats through templates, process data from a CSV file, and perform efficient, parallel operations on the data.",
-    image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&auto=format&fit=crop",
+    image: diverseStudentDataImg,
     tags: ['C++'],
     github: "https://github.com/saloninarang27/Diverse-Student-Data-Handling",
     webapp: null
@@ -666,7 +674,7 @@ export const projects = [
     category: "mtech",
     subCategory: "MTech Project",
     description: "A student management system with features including: add new student records, display and sort records by name, load and save from CSV files, and custom implementations of core data structures.",
-    image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&auto=format&fit=crop",
+    image: studentManagementSysImg,
     tags: ['C++'],
     github: "https://github.com/saloninarang27/Student-Management-System",
     webapp: null
@@ -688,7 +696,7 @@ export const projects = [
     category: "mtech",
     subCategory: "MTech Project",
     description: "Implemented dataset classes for image, audio, and text modalities with proper preprocessing, random and weighted samplers, and trained classifiers for multi-modal data.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop",
+    image: multimodalPipelineImg,
     tags: ['Jupyter Notebook'],
     github: "https://github.com/saloninarang27/Multi-Modal-Classification-Pipeline",
     webapp: null
@@ -699,7 +707,7 @@ export const projects = [
     category: "mtech",
     subCategory: "MTech Project",
     description: "A C++ OOP-based BibTeX parser with dynamic strings, extra fields (PDF, source, presentation URLs), sorting by year and alphabetically, and merging multiple bib files using the + operator.",
-    image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop",
+    image: bibtexParserImg,
     tags: ['C++', 'TeX'],
     github: "https://github.com/saloninarang27/BibTeX-Parser",
     webapp: null
@@ -710,9 +718,42 @@ export const projects = [
     category: "mtech",
     subCategory: "MTech Project",
     description: "A comprehensive ML pipeline for multimodal emotion recognition using the Crema-D dataset, covering data processing, model development, and evaluation with advanced ML techniques.",
-    image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=600&auto=format&fit=crop",
+    image: emotionRecognitionImg,
     tags: ['Jupyter Notebook', 'Deep Learning'],
     github: "https://github.com/saloninarang27/Multimodal-Emotion-Recognition",
+    webapp: null
+  },
+  {
+    id: "mtech-15",
+    title: "SPARK: Academic Ranking Knowledgebase",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Scholarly Publication & Academic Ranking Knowledgebase ranking CS departments across all ICORE A*/A conferences and IEEE/ACM journals via DBLP & IRINS data. Engineered with Django REST API, transparent ranking algorithms, and scalable faculty aggregation.",
+    image: sparkRankingImg,
+    tags: ["Python", "Django REST", "DBLP API", "Data Analysis", "Ranking Algorithms"],
+    github: "https://github.com/saloninarang27/spark-ranking-IIITD-BE",
+    webapp: null
+  },
+  {
+    id: "mtech-16",
+    title: "Solari: Quick-Commerce Demand Forecasting",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Time-series daily order-volume forecasting across 800+ quick-commerce micro-fulfillment hubs using XGBoost. Implemented extensive feature engineering with lag terms, rolling statistics, calendar indicators, and promotion signals evaluated on RMSLE.",
+    image: solariDemandImg,
+    tags: ["Python", "XGBoost", "Time Series", "Feature Engineering", "RMSLE"],
+    github: "https://github.com/saloninarang27/solari-demand-forecasting",
+    webapp: null
+  },
+  {
+    id: "mtech-17",
+    title: "Big Data Engine Benchmarking (Spark vs DuckDB vs MapReduce)",
+    category: "mtech",
+    subCategory: "MTech Project",
+    description: "Comprehensive end-to-end performance benchmarking and scalability analysis comparing Hadoop MapReduce (mrjob), Apache Spark (PySpark), and DuckDB on NYC Taxi trip datasets across multiple data scales and query complexities.",
+    image: bigdataBenchmarkingImg,
+    tags: ["Apache Spark", "DuckDB", "MapReduce", "PySpark", "Big Data", "Benchmarking"],
+    github: "https://github.com/saloninarang27/BigData-Engine-Benchmarking-Spark-DuckDB-MapReduce",
     webapp: null
   }
 ];
